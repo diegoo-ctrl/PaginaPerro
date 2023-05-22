@@ -12,8 +12,20 @@ body, html {
 	height: 100%;
 	width: 100%;
 	overflow-x:hidden;
-	cursor: url(../img/icon/paper_plane_flying-2.svg), auto;
+	cursor: url(../img/icon/dog-food.png), auto;
 }
+
+/*prueba*/
+#prueba1 .img-responsive{
+	cursor: url(../img/icon/dog-training.png), auto;
+}
+
+.item .img-responsiveimg-rounded {
+	cursor: url(../img/icon/walking-the-dog.png), auto;
+}
+
+#prueba .img-responsive {cursor: url(../img/icon/bark.png), auto;}
+
 
 ::-moz-selection{background:#1abc9c;color:white}
 
@@ -109,7 +121,7 @@ opacity: 0.95 !important;
 filter: alpha(opacity=95) !important;
 }
 
-.item .img-responsive {cursor:url(../img/icon/animals_dog_8_color.svg),auto;}
+.item .img-responsive {cursor:url(../img/icon/heart.png),auto;}
 
 /* Preloader */
 #preloader {
